@@ -1,0 +1,30 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	overflow: hidden;
+}
+
+.stage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.session {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	z-index: 1000;
+}
+
+.session h1 {
+	font-family: Verdana;
+	color: #333;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#stats { position: absolute; top:0; left: 0 }
+#stats #fps { background: transparent !important }
+#stats #fps #fpsText { color: #777 !important }
+#stats #fps #fpsGraph { display: none }
